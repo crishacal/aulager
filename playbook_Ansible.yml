@@ -3,6 +3,7 @@
   become: true
   vars:
     doc_root: /var/www/example
+
   tasks:
     - name: Update apt
       apt: update_cache=yes
